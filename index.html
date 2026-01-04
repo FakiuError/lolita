@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Nuestra Boda</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">+
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Nos Casamos</h1>
+    <h1>David y Karen</h1>
+    <h2>17 de enero · 3:00 pm</h2>
+
+    <p class="bienvenida">
+        Nos enorgullece invitar a <strong>la mejor hermana del mundo</strong> para ser parte
+        de uno de los días más importantes de nuestras vidas. Su presencia llena nuestro
+        corazón de alegría y hará este momento aún más especial.
+    </p>
+
+    <div class="contador">
+    <div class="tiempo-wrap">
+        <div class="tiempo">
+            <span id="dias">0</span>
+            <small>DÍAS</small>
+        </div>
+    </div>
+
+    <div class="tiempo-wrap">
+        <div class="tiempo">
+            <span id="horas">0</span>
+            <small>HORAS</small>
+        </div>
+    </div>
+
+    <div class="tiempo-wrap">
+        <div class="tiempo">
+            <span id="minutos">0</span>
+            <small>MIN</small>
+        </div>
+    </div>
+
+    <div class="tiempo-wrap">
+        <div class="tiempo">
+            <span id="segundos">0</span>
+            <small>SEG</small>
+        </div>
+    </div>
+</div>
+</header>
+
+<section class="ubicacion">
+    <div class="texto">
+        <div class="icono">
+            <i class="fa-solid fa-location-dot"></i>
+        </div>
+        <h2>17 de enero · 3:00 pm</h2>
+        <p>
+            Te esperamos para celebrar nuestra unión en la<br>
+            <strong>Parroquia María Auxiliadora de Silvania</strong>
+        </p>
+        <p class="direccion">
+            Silvania, Cundinamarca
+        </p>
+
+        <a 
+            href="https://www.google.com/maps/search/?api=1&query=Parroquia+María+Auxiliadora+Silvania"
+            target="_blank"
+            class="btn-mapa"
+        >
+            Ver ubicación en Google Maps
+        </a>
+    </div>
+
+    <div class="imagen">
+        <!-- Reemplaza por tu foto real -->
+        <img src="img/iglesia.jpg" alt="Parroquia María Auxiliadora de Silvania">
+    </div>
+</section>
+
+<section>
+    <div class="texto">
+        <div class="icono"><i class="fa-solid fa-heart"></i></div>
+        <h2>Nuestra Historia</h2>
+        <p>
+            Dos caminos que se cruzaron, dos almas que decidieron caminar juntas.
+            Hoy celebramos el amor y la promesa de un futuro compartido.
+        </p>
+    </div>
+    <div class="imagen">
+        <img src="img/1.jpeg">
+    </div>
+</section>
+
+<section>
+    <div class="texto">
+        <div class="icono"><i class="fa-solid fa-ring"></i></div>
+        <h2>Un día muy especial</h2>
+        <p>
+            Lo más valioso para nosotros es compartir este día contigo.
+            Si deseas acompañarnos con un detalle, lo recibiremos con mucho cariño.
+        </p>
+    </div>
+    <div class="imagen">
+        <img src="img/2.jpeg">
+    </div>
+</section>
+
+<section>
+    <div class="texto">
+        <div class="icono"><i class="fa-solid fa-champagne-glasses"></i></div>
+        <h2>Celebración</h2>
+        <p>
+            Una tarde llena de sonrisas, abrazos y momentos que quedarán para siempre
+            en nuestro corazón.
+        </p>
+    </div>
+    <div class="imagen">
+        <img src="img/3.jpeg">
+    </div>
+</section>
+
+<section>
+    <div class="texto">
+        <div class="icono"><i class="fa-solid fa-calendar-days"></i></div>
+        <h2>Te esperamos</h2>
+        <p>
+            Gracias por ser parte de nuestra historia.
+            Tu presencia hará este día aún más inolvidable.
+        </p>
+    </div>
+    <div class="imagen">
+        <img src="img/4.jpeg">
+    </div>
+</section>
+
+<footer>
+    <p>Con amor 💙</p>
+    <p>Una historia que comienza para siempre</p>
+</footer>
+
+<!-- JS -->
+<script src="app.js"></script>
+<audio id="cancion" loop>
+    <source src="audio/cancion.mp3" type="audio/mpeg">
+</audio>
+</body>
+</html>
